@@ -39,6 +39,54 @@
 ##if char >= 'A' and char <= 'Z' :
 ##    print(ord(char))
 
+#wap to check whether character is digit or not
+# char=input('enter a character: ')
+# if char>='0' and char<='9':
+#     print('its a digit')
+# else:
+#     print('its not a digit')
+
+
+##wap to given character is special character or not
+# char=input('enter a char: ')
+# if char in ('!@#$%^&*'):
+#     print('its a special character')
+# else:
+#     print('its not a special character')
+
+# char=input('enter a character: ')
+# if (char >= 'a' and char <= 'z') or (char >= 'A' and char <= 'Z') or (char >= '0' and char <= '9'):
+#     print('its not a  special character')
+# else:
+#     print('its a special character')
+
+##wap to check wheather number is positive or not
+# num=int(input('enter a num: '))
+# if num>0:
+#     print('the number is positive')
+# else:
+#     print('the number is not positive')
+
+
+##wap to check if string is pallindrome or not
+# s=input('enter a string: ')
+# if s==s[::-1]:
+#     print('its a pallindrome')
+# else:
+#     print('its not a pallindrome')
+
+
+##  wap to check if list is having middle value or not
+# l=eval(input('enter a list'))
+# if len(l)%2!=0:
+#     print('its having middle value')
+# else:
+#     print('its not having middle value')
+
+
+
+
+
 
  
 
